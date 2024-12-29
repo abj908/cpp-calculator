@@ -1,0 +1,4 @@
+/workspaces/cpp-calculator/build/CMakeFiles/rebuild_cache.dir
+/workspaces/cpp-calculator/build/CMakeFiles/edit_cache.dir
+/workspaces/cpp-calculator/build/CMakeFiles/calculator_tests.dir
+/workspaces/cpp-calculator/build/CMakeFiles/calculator.dir
