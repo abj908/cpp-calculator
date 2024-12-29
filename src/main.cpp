@@ -2,6 +2,7 @@
 #include "calculator.h"
 
 int main() {
+    std::cout << "Hello, Debugging!" << std::endl; // Breakpoint here
     int a, b;
     char op;
 
