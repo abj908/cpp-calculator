@@ -1,31 +1,27 @@
-name: C++ CI
+name: C++ CI with CMake
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
   pull_request:
-    branches:
-      - main
+    branches: [ "main" ]
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up C++
-      uses: actions/setup-cpp@v2
-      with:
-        compiler: g++
-    - name: Install dependencies
-      run: sudo apt install libgtest-dev
-    - name: Build
+    - uses: actions/checkout@v4  # Checkout the code
+    - name: Set up CMake
+      run: sudo apt install libgtest-dev  # Install necessary dependencies for CMake and Google Test
+    - name: Build with CMake
       run: |
         mkdir build
         cd build
         cmake ..
-        make
-    - name: Run Tests
+        make  # Build the project
+    - name: Run tests
       run: |
         cd build
-        ./calculator_tests
+        ./calculator_tests  # Adjust this based on your test executable
