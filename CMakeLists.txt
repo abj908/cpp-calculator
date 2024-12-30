@@ -10,3 +10,5 @@ add_executable(calculator src/main.cpp src/calculator.cpp)
 add_executable(calculator_tests tests/calculator_tests.cpp src/calculator.cpp)
 
 target_link_libraries(calculator_tests gtest gtest_main pthread)
+
+set(CMAKE_BUILD_TYPE Debug)
