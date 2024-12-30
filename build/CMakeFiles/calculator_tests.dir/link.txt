@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/calculator_tests.dir/tests/calculator_tests.cpp.o CMakeFiles/calculator_tests.dir/src/calculator.cpp.o  -o calculator_tests  -lgtest -lgtest_main -lpthread 
+/usr/bin/c++  -g   CMakeFiles/calculator_tests.dir/tests/calculator_tests.cpp.o CMakeFiles/calculator_tests.dir/src/calculator.cpp.o  -o calculator_tests  -lgtest -lgtest_main -lpthread 
