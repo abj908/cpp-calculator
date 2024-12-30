@@ -8,12 +8,6 @@
 
 ../include/calculator.h
 
-/workspaces/cpp-calculator/src/calculator.cpp
-calculator.h
-/workspaces/cpp-calculator/src/calculator.h
-stdexcept
--
-
 /workspaces/cpp-calculator/src/main.cpp
 iostream
 -
